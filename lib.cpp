@@ -8,7 +8,8 @@ bool nprimi (int a) {
         return risultato;
 
         }
+     }
         risultato = 0;
         return risultato;
-    }
+    
 }
