@@ -8,9 +8,9 @@ int main() {
 
 
     if (nprimi(a) == 0) {
-        cout << "numero primo" << endl;
+        cout <<"numero primo"<< endl;
     } else {
-        cout << "numero non primo" << endl;
+        cout <<"numero non primo"<< endl;
     }
 
     return 0;
