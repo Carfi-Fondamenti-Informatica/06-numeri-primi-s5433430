@@ -1,14 +1,17 @@
+#include <iostream>
 #include "lib.h"
 
-bool nprimi (int a) {
-    bool risultato = 1;
-        for (int i=2; i<a; i++) {
-        if (a%i ==0) {
+using namespace std;
+int main() {
+    int a = 0;
+    cin >> a;
 
-        return risultato;
 
-        }
-        risultato = 0;
-        return risultato;
+    if (nprimi(a) == 0) {
+        cout << "numero primo" << endl;
+    } else {
+        cout << "numero non primo" << endl;
     }
+
+    return 0;
 }
